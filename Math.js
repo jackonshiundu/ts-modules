@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const Advancedops_1 = require("./Advancedops");
 var MyBasicArithmetic;
 (function (MyBasicArithmetic) {
     function add(num1, num2) {
@@ -12,6 +11,7 @@ var MyBasicArithmetic;
     }
     MyBasicArithmetic.subtract = subtract;
 })(MyBasicArithmetic || (MyBasicArithmetic = {}));
+const Advancedops_1 = require("./Advancedops");
 function doTheMath() {
     let sum = MyBasicArithmetic.add(5, 8);
     console.log(sum);
